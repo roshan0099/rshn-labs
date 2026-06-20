@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", var(--font-sans);
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium Indian Culinary Color Palette */
+  --color-saffron-50: #fffbf0;
+  --color-saffron-100: #fef3d6;
+  --color-saffron-200: #fde2a8;
+  --color-saffron-500: #f59e0b; /* Golden saffron */
+  --color-saffron-600: #ea580c; /* Deep saffron / orange */
+  --color-saffron-700: #c2410c;
+
+  --color-cardamom-50: #f4f8f5;
+  --color-cardamom-100: #e3ede6;
+  --color-cardamom-500: #166534; /* Cardamom Green */
+}
+
+/* Custom scrollbar to keep layout clean and elegant */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cbd5e1;
+}
