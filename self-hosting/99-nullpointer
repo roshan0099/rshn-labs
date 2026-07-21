@@ -4,7 +4,7 @@ clear
 
 figlet -f big "NULL   POINTER"
 
-echo "🚀 Welcome back, Roshan!"
+echo "🚀 Welcome back!"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 printf "🖥  Hostname        : %s\n" "$(hostname)"
